@@ -9,4 +9,6 @@ file.seek(10)  # Move to the 11th byte (0-based index)
 characters = file.read(5)  # Read 5 characters from the current position
 print(characters)
 
+print(file.name)  # This will give you the name of the file you opened
+
 file.close()
